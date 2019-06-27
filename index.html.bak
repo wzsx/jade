@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>  
+    <meta charset="UTF-8"> 
+    <title>老王网络，创造新的网络平台</title>
+    <meta name="theme-color" content="#ffc91d">
+    <link rel="icon" href="images/32.png" sizes="32x32">
+    <link rel="icon" href="images/192.png" sizes="192x192">
+    <link href="css/kico.css" rel="stylesheet" type="text/css">
+    <link href="css/paul.css" rel="stylesheet" type="text/css">
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1">
+</head>
+<body>
+<!-- 左边导航代码开始 -->
+<aside class="sidebar">
+    <div class="avatar">
+        <img src="images/avatar.jpg" title="小川">
+    </div>
+    <nav class="nav">
+        <a href="#info">个人资料</a>
+        <a href="#skills">掌握的技能</a>
+        <a href="#works">旗下网站</a>
+        <a href="#story">个人经历</a>
+        <a href="#team">我的团队</a>
+	
+    </nav>
+</aside>
+<!-- 左边导航代码结束 -->
+<!-- 个人资料代码开始 -->
+<main>
+    <section id="info">
+        <div class="wrap">
+            <h2 class="title">个人资料</h2>
+            <div class="row">
+                <div class="col-l-4">
+                    <p>姓名：老王</p>
+                    <p>性别：男</p>
+                    <p>年龄：18</p>
+                    <p>英文名：laowang</p>
+                    <p>学历：本科</p>
+                </div>
+                <div class="col-l-4">
+                    <p>QQ：1217742369</p>
+                    <p>QQ空间：<a href="https://user.qzone.qq.com/166660614" target="_blank">我的空间</a></p>
+                    <p>主页：<a href="https://www.52self.cn" target="_blank"> 39.96.0.50</a></p>
+                    <p>邮箱：1217742369@qq.com</p>
+                </div>
+                <div class="col-l-4">
+                    <p>我是一个热爱钻研计算机技术的青少年，从小开始对计算机有极大的兴趣。目前我专注网站开发领域。我还自己发起建立了一个制作游戏的团队，希望能和大家合作，一同创造出属于我们自己的作品。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+		<!-- 个人资料代码结束 -->
+		<!-- 技能代码开始 -->
+    <section id="skills">
+        <div class="wrap">
+            <h2 class="title">掌握的技能</h2>
+            <div class="row scrollable">
+                <div class="col-s-6 col-m-4 center-fixed">
+                    <div class="skills-icon">
+                        <i class="fa fa-html5"></i>
+                    </div>
+                    <div class="skills-title">
+                        <h3>HTML 5</h3>
+                        <p>熟悉 HTML5 网站的架构和开发</p>
+                    </div>
+                </div>
+                <div class="col-s-6 col-m-4 center-fixed">
+                    <div class="skills-icon">
+                        <i class="fa fa-css3"></i>
+                    </div>
+                    <div class="skills-title">
+                        <h3>CSS3</h3>
+                        <p>熟悉使用 CSS3 写响应式网站、动画等</p>
+                    </div>
+                </div>
+                <div class="col-s-6 col-m-4 center-fixed">
+                    <div class="skills-icon">
+                        <i class="fa fa-code"></i>
+                    </div>
+                    <div class="skills-title">
+                        <h3>JavaScript</h3>
+                        <p>能使用 JS 制作简单的程序、交互与特效</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+		<!-- 技能代码结束 -->
+		<!-- 旗下网站代码开始 -->
+	
+    <section id="works">
+        <div class="wrap">
+            <h2 class="title">旗下网站</h2>
+            <div class="row">
+                <div class="col-s-6">
+                    <div class="works-item">
+                        <img src="https://ww3.sinaimg.cn/large/87c01ec7gy1fs1ujjnz5pj21gr0oo4qp.jpg">
+                        <p><a href="https://www.52self.cn" target="_blank">个人简历网（www.52self.cn）</a></p>
+                    </div>
+                </div>
+                <div class="col-s-6">
+                    <div class="works-item">
+                        <img src="https://ww4.sinaimg.cn/large/87c01ec7gy1fs1zx1fcd9j21gr0oekjl.jpg">
+                        <p><a href="http://www.weifenshi.com/" target="_blank">优惠购物（www.52self.cn）</a></p>
+                    </div>
+                </div>
+                <div class="col-s-6">
+                    <div class="works-item">
+                        <img src="https://ww4.sinaimg.cn/large/87c01ec7gy1frerobaommj21gz0oe4f5.jpg">
+                        <p><a href="https://tc.ixiaowai.cn/" target="_blank">小川图床（tc.ixiaowai.cn）</a></p>
+                    </div>
+                </div>
+                <div class="col-s-6">
+                    <div class="works-item">
+                        <img src="https://ww4.sinaimg.cn/large/87c01ec7gy1fs1ta1d13gj21gw0onhdv.jpg">
+                        <p><a href="https://api.ixiaowai.cn/" target="_blank">小川图片api（api.ixiaowai.cn）</a></p>
+    </div>
+                </div>
+                                  <div class="works-item">
+                        <img src="https://ww1.sinaimg.cn/large/87c01ec7gy1fsnpmbd3qzj21hc0of7sf.jpg">
+                        <p><a href="https://music.ixiaowai.cn/" target="_blank">小川音乐（music.ixiaowai.cn）</a></p>
+                    </div>
+                </div>
+              
+              </div>
+            </div>       
+    </section>
+	<!-- 旗下网站代码结束 -->
+		<!-- 个人经历代码开始 -->
+    <section id="story">
+        <div class="wrap">
+            <h2 class="title">个人经历</h2>
+            <div class="row">
+                <div class="col-m-8">
+                    <ul class="timeline">
+                        <li>2018.02.01：走进网络</li>
+                        <li>2018.02.10：创作第一个<a href="http://v.ixiaowai.cn" target="_blank">影视</a>网站，并且免除广告和会员制度</li>
+                        <li>2018.03.10：创建<a href="https://tc.ixiaowai.cn/" target="_blank">图床</a> 图片有了它的外链
+                        <li>2018.04.17：专注活动丶软件丶教程 乐于分享 创建自己一个分享<a href="https://blog.ixiaowai.cn/" target="_blank">博客</a>把好玩的文章 段子 活动 分享给游客
+                        <li>2018.05.17：我们把所有网站 垄到一个导航 创立<a href="https://www.ixiaowai.cn/" target="_blank">小川网络</a>
+                        <li>2018.05.23：让背景随机变换 二次元 高清 刷新即变的一个api接口<a href="https://api.ixiaowai.cn/" target="_blank">小川图片api</a>
+                        <li>2018.06.01：制作音乐站 让新的一天聆听美妙的旋律 爱音乐 享<a href="https://music.ixiaowai.cn/" target="_blank">音乐</a>
+                        <li>2018.06.25：开启全站防护 拒绝流量和ＣＣ攻击造成卡顿的现象
+                        <li>以后：我们会做的更好
+                        <li>尽情期待
+                        <li>
+                        <li>
+                        <li>
+                        <li>
+                        <li>
+                        <li>
+                        <li>
+                    </ul>
+                </div>
+                <div class="col-m-4 center-fixed">
+                    <img src="images/story.png">
+                </div>
+            </div>
+        </div>
+    </section>
+	
+	<!-- 个人经历代码结束 -->
+<embed src="/1.mp3" autostart="true" loop="true" hidden="true">
+	<!-- 我的团队代码开始 -->
+    <section class="content-d" id="team">
+        <div class="wrap">
+            <h2 class="title">我的团队</h2>
+            <div class="row">
+                <div class="col-m-6">
+                    <p>我的团队 - 团队由一群热爱科技创新的年轻人所组成，做到了“实际”与“创新”的结合。奇思妙想不乏真正落实。集思广益，生动有趣的创意，尽在小川网络。小川团队如今有超过10名成员，各个部门互帮互助，同为一个目标而努力进取着。</p>
+                    <p>我们一味的追求创新 敢于创造 乐于分享</p>
+                    <!--<p>团队官网：<a href="http://u1f.cn">http://u1f.cn</a></p>-->
+                </div>
+                <div class="col-m-6 center">
+                    <img src="images/team.png">
+                </div>
+            </div>
+        </div>
+    </section>
+	<!-- 我的团队代码结束 -->
+  
+  
+  
+  <!-- 底部代码开始 -->
+    <footer>
+        <p>© 2018 By <a href="/" title="小歪网络" >小川网络</a> <a rel="nofollow"target="_blank" href="http://www.miitbeian.gov.cn/" >冀ICP备18015542号</a></p>
+     
+    </footer>	
+  <!-- 底部代码结束 -->
+
+</main>
+<script data-cfasync="false" src="js/email-decode.min.js"></script><script src="js/kico.js"></script>
+<script src="js/paul.js"></script>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?5b8626705cec1a357a9db7cf6075c2cb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+  
+ </body>
+</html>
